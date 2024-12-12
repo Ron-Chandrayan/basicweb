@@ -1,3 +1,5 @@
+console.log("hello world");
+
 const burger=document.querySelector('nav svg');
 burger.addEventListener("click",()=>{
     if(burger.classList.contains('active')){
